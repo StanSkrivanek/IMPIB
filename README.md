@@ -1,20 +1,10 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo.svg" />
-    <img src="static/graphics/impib-logo-dark.svg" alt="IMPIB" width="160" />
-  </picture>
+# IMPIB
 
-**Private, browser-based image production and responsive asset compiler.**
+This is the public issue tracker for IMPIB, a browser-based image production app. The application source code is private; this repository is for bug reports, feature discussions, and public release notes.
 
-Turn one source image (or an entire batch) into optimized, consistently framed, production-ready assets without uploading confidential files.
+**Current version:** 0.9.1 · [Release notes](CHANGELOG.md) · [Report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new)
 
-[![Version](https://img.shields.io/badge/version-0.9.1-f06452.svg)](package.json)
-[![Svelte 5](https://img.shields.io/badge/Svelte-5-ff3e00?logo=svelte&logoColor=white)](https://svelte.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![WebAssembly](https://img.shields.io/badge/codecs-WebAssembly-654ff0?logo=webassembly&logoColor=white)](https://webassembly.org/)
-[![Privacy](https://img.shields.io/badge/processing-local--only-0f766e)](#privacy-by-design)
-
-</div>
+When reporting a problem, include your browser, device, source image dimensions, selected formats, and steps to reproduce it. Please do not attach confidential source images or metadata; use a safe sample when possible.
 
 ## Overview
 
@@ -24,19 +14,19 @@ All decoding, transformation, analysis, and encoding happens locally in Web Work
 
 ## Highlights
 
-- **Standard and Advanced workflows** - move from a guided image-set builder to detailed professional controls without losing your settings.
-- **Single-image and batch production** - optimize one image or process a device-aware queue in parallel.
-- **Modern image formats** - read JPEG, PNG, WebP, and AVIF; export AVIF, WebP, JPEG, PNG, and JPEG XL.
-- **Responsive asset sets** - create multiple formats and widths from one source with adaptive quality.
-- **Production framing** - use exact-size cover crops, aspect-ratio locks, manual crops, and custom focal points for consistent subject placement.
-- **Ready-made catalogues** - target common ecommerce, social, advertising, web, print, mobile, desktop, and video dimensions.
-- **Reusable recipes and templates** - save codec settings, sizing rules, output names, custom categories, and custom dimensions.
-- **Structured exports** - generate first, then download organized ZIP packages with assets, metadata, `manifest.json`, and ready-to-use `<picture>`/`srcset` markup.
-- **Private delivery choices** - use normal Browser Downloads everywhere or grant supported browsers access to one selected local folder only when needed.
-- **Target-size encoding** - search for the best quality that fits a chosen file-size budget.
-- **Image intelligence** - inspect metadata and histograms, classify image content, and apply format and quality recommendations.
-- **Professional codec controls** - tune codec-specific options, resize algorithms, metadata handling, and image adjustments.
-- **Resilient processing** - memory-aware batching, concurrent workers, cancellation, retry, and automatic recovery from worker failures.
+- **Standard and Advanced workflows** — move from a guided image-set builder to detailed professional controls without losing your settings.
+- **Single-image and batch production** — optimize one image or process a device-aware queue in parallel.
+- **Modern image formats** — read JPEG, PNG, WebP, and AVIF; export AVIF, WebP, JPEG, PNG, and JPEG XL.
+- **Responsive asset sets** — create multiple formats and widths from one source with adaptive quality.
+- **Production framing** — use exact-size cover crops, aspect-ratio locks, manual crops, and custom focal points for consistent subject placement.
+- **Ready-made catalogues** — target common ecommerce, social, advertising, web, print, mobile, desktop, and video dimensions.
+- **Reusable recipes and templates** — save codec settings, sizing rules, output names, custom categories, and custom dimensions.
+- **Structured exports** — generate first, then download organized ZIP packages with assets, metadata, `manifest.json`, and ready-to-use `<picture>`/`srcset` markup.
+- **Private delivery choices** — use normal Browser Downloads everywhere or grant supported browsers access to one selected local folder only when needed.
+- **Target-size encoding** — search for the best quality that fits a chosen file-size budget.
+- **Image intelligence** — inspect metadata and histograms, classify image content, and apply format and quality recommendations.
+- **Professional codec controls** — tune codec-specific options, resize algorithms, metadata handling, and image adjustments.
+- **Resilient processing** — memory-aware batching, concurrent workers, cancellation, retry, and automatic recovery from worker failures.
 
 ## Formats
 
@@ -69,22 +59,6 @@ Standard mode is designed for quickly creating complete responsive sets. Advance
 
 > Browser extensions, the operating system, and the hosting provider remain outside the application's control. Review your deployment environment if you use IMPIB for sensitive material.
 
-## Browser support
+## Issues and release notes
 
-IMPIB targets current evergreen browsers with WebAssembly and module Web Worker support. Some operations also use browser capabilities such as `OffscreenCanvas` and `navigator.hardwareConcurrency` when available.
-
-Browser Downloads work across supported browsers. Selected-folder delivery is progressively enhanced when the File System Access API is available (primarily current Chromium browsers such as Chrome and Edge); Safari and Firefox continue to use Browser Downloads.
-
-Cross-origin isolation enables faster multithreaded single-image AVIF encoding where supported. Batch AVIF processing parallelizes by image.
-
-The V1 support window, progressive-enhancement boundary, test matrix, and release-blocking rules are recorded in the [browser and device support policy](docs/developer/browser-support-policy.md).
-
-Defects use the repository's single [`release-blocker` severity policy](docs/developer/defect-severity.md); the issue form collects the evidence needed to apply it consistently without exposing private source material.
-
-## Documentation
-
-The application includes an extensive user guide at `/docs`, plus dedicated references for resizing algorithms and commerce image sizes.
-
-## License
-
-IMPIB is available under the [MIT License](LICENSE). Copyright © 2026 Stan.
+Use [Issues](https://github.com/StanSkrivanek/IMPIB/issues) to report problems or discuss improvements. Published changes are listed in the [public changelog](CHANGELOG.md).
