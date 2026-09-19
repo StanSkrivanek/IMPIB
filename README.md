@@ -9,7 +9,6 @@
 Turn one source image (or an entire batch) into optimized, consistently framed, production-ready assets without uploading confidential files.
 
 [![Version](https://img.shields.io/badge/version-0.9.0-f06452.svg)](package.json)
-[![License: MIT](https://img.shields.io/badge/license-MIT-22c55e.svg)](LICENSE)
 [![Svelte 5](https://img.shields.io/badge/Svelte-5-ff3e00?logo=svelte&logoColor=white)](https://svelte.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![WebAssembly](https://img.shields.io/badge/codecs-WebAssembly-654ff0?logo=webassembly&logoColor=white)](https://webassembly.org/)
