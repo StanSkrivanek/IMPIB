@@ -2,6 +2,12 @@
 
 These are approved, user-facing release notes. Internal plans and unreleased work remain in the private application repository.
 
+## 0.9.31 — 2026-09-19
+
+- Shows responsive-width limits directly below the input, including whether upscaling is on or off.
+- Clarifies that large AVIF outputs may strain browser memory and advises smaller dimensions only if optimization fails.
+- Improves the visibility of large-output guidance in the light theme.
+
 ## 0.9.3 — 2026-09-19
 
 - Improves guidance and recovery for large image and upscale jobs in the browser.
