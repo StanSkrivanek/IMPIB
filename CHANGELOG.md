@@ -2,6 +2,11 @@
 
 These are approved, user-facing release notes. Internal plans and unreleased work remain in the private application repository.
 
+## 0.9.2 — 2026-09-19
+
+- Applies the committed crop to generated responsive images and exact-size templates, with output dimensions and framing based on the cropped source.
+- Adds a browser regression test that checks the pixels in a downloaded cropped image.
+
 ## 0.9.1 — 2026-09-19
 
 - Makes JXL availability consistent across Standard, Advanced, and comparison previews, while keeping upload and codec memory limits distinct and centrally enforced.
