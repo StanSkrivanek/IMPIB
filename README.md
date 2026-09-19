@@ -24,19 +24,19 @@ All decoding, transformation, analysis, and encoding happens locally in Web Work
 
 ## Highlights
 
-- **Standard and Advanced workflows** — move from a guided image-set builder to detailed professional controls without losing your settings.
-- **Single-image and batch production** — optimize one image or process a device-aware queue in parallel.
-- **Modern image formats** — read JPEG, PNG, WebP, and AVIF; export AVIF, WebP, JPEG, PNG, and JPEG XL.
-- **Responsive asset sets** — create multiple formats and widths from one source with adaptive quality.
-- **Production framing** — use exact-size cover crops, aspect-ratio locks, manual crops, and custom focal points for consistent subject placement.
-- **Ready-made catalogues** — target common ecommerce, social, advertising, web, print, mobile, desktop, and video dimensions.
-- **Reusable recipes and templates** — save codec settings, sizing rules, output names, custom categories, and custom dimensions.
-- **Structured exports** — generate first, then download organized ZIP packages with assets, metadata, `manifest.json`, and ready-to-use `<picture>`/`srcset` markup.
-- **Private delivery choices** — use normal Browser Downloads everywhere or grant supported browsers access to one selected local folder only when needed.
-- **Target-size encoding** — search for the best quality that fits a chosen file-size budget.
-- **Image intelligence** — inspect metadata and histograms, classify image content, and apply format and quality recommendations.
-- **Professional codec controls** — tune codec-specific options, resize algorithms, metadata handling, and image adjustments.
-- **Resilient processing** — memory-aware batching, concurrent workers, cancellation, retry, and automatic recovery from worker failures.
+- **Standard and Advanced workflows** - move from a guided image-set builder to detailed professional controls without losing your settings.
+- **Single-image and batch production** - optimize one image or process a device-aware queue in parallel.
+- **Modern image formats** - read JPEG, PNG, WebP, and AVIF; export AVIF, WebP, JPEG, PNG, and JPEG XL.
+- **Responsive asset sets** - create multiple formats and widths from one source with adaptive quality.
+- **Production framing** - use exact-size cover crops, aspect-ratio locks, manual crops, and custom focal points for consistent subject placement.
+- **Ready-made catalogues** - target common ecommerce, social, advertising, web, print, mobile, desktop, and video dimensions.
+- **Reusable recipes and templates** - save codec settings, sizing rules, output names, custom categories, and custom dimensions.
+- **Structured exports** - generate first, then download organized ZIP packages with assets, metadata, `manifest.json`, and ready-to-use `<picture>`/`srcset` markup.
+- **Private delivery choices** - use normal Browser Downloads everywhere or grant supported browsers access to one selected local folder only when needed.
+- **Target-size encoding** - search for the best quality that fits a chosen file-size budget.
+- **Image intelligence** - inspect metadata and histograms, classify image content, and apply format and quality recommendations.
+- **Professional codec controls** - tune codec-specific options, resize algorithms, metadata handling, and image adjustments.
+- **Resilient processing** - memory-aware batching, concurrent workers, cancellation, retry, and automatic recovery from worker failures.
 
 ## Formats
 
