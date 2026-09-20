@@ -2,6 +2,12 @@
 
 These are approved, user-facing release notes. Internal plans and unreleased work remain in the private application repository.
 
+## 0.9.33 — 2026-09-20
+
+- Keeps other selected image-set formats generating when a large JPEG XL output is skipped or its encoder reports a recoverable error.
+- Gives enlarged JPEG XL outputs more browser-memory headroom and explains skipped files in a readable, click-open tooltip.
+- Warns when a selected responsive width will skip JPEG XL without blocking that width for other formats.
+
 ## 0.9.32 — 2026-09-20
 
 - Keeps the Advanced Output plan unavailable until image optimization completes, with a clear prerequisite message.
