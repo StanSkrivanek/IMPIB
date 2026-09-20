@@ -2,6 +2,12 @@
 
 These are approved, user-facing release notes. Internal plans and unreleased work remain in the private application repository.
 
+## 0.9.32 — 2026-09-20
+
+- Keeps the Advanced Output plan unavailable until image optimization completes, with a clear prerequisite message.
+- Clarifies image-set planning with Set builder and Template library tabs and a consistent summary and Generate action in both views.
+- Opens Download automatically when image-set generation finishes successfully.
+
 ## 0.9.31 — 2026-09-19
 
 - Shows responsive-width limits directly below the input, including whether upscaling is on or off.
