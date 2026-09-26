@@ -1,6 +1,22 @@
-# IMPIB
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/impib-logo-light.svg" />
+    <img src="assets/impib-logo-dark.svg" alt="IMPIB" width="160" />
+  </picture>
 
-This is the public issue tracker for IMPIB, a browser-based image production app. The application source code is private; this repository is for bug reports, feature discussions, and public release notes.
+**Private, browser-based image production and responsive asset compiler.**
+
+Turn one source image (or an entire batch) into optimized, consistently framed, production-ready assets without uploading confidential files.
+
+[![Version](https://img.shields.io/badge/version-1.0.0-f06452.svg)](CHANGELOG.md)
+[![Svelte 5](https://img.shields.io/badge/Svelte-5-ff3e00?logo=svelte&logoColor=white)](https://svelte.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![WebAssembly](https://img.shields.io/badge/codecs-WebAssembly-654ff0?logo=webassembly&logoColor=white)](https://webassembly.org/)
+[![Privacy](https://img.shields.io/badge/processing-local--only-0f766e)](#privacy-by-design)
+
+</div>
+
+> This is IMPIB's public support and release-notes repository. The application source code and internal development repository are private.
 
 **[Open IMPIB](https://www.impib.dev)** · **Current version:** 1.0.0 · [Release notes](CHANGELOG.md) · [Get help or report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new/choose)
 
