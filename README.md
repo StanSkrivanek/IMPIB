@@ -8,7 +8,7 @@
 
 Turn one source image (or an entire batch) into optimized, consistently framed, production-ready assets without uploading confidential files.
 
-[![Version](https://img.shields.io/badge/version-1.0.1-f06452.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.0.2-f06452.svg)](CHANGELOG.md)
 [![Svelte 5](https://img.shields.io/badge/Svelte-5-ff3e00?logo=svelte&logoColor=white)](https://svelte.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![WebAssembly](https://img.shields.io/badge/codecs-WebAssembly-654ff0?logo=webassembly&logoColor=white)](https://webassembly.org/)
@@ -18,7 +18,7 @@ Turn one source image (or an entire batch) into optimized, consistently framed, 
 
 > This is IMPIB's public support and release-notes repository. The application source code and internal development repository are private.
 
-**[Open IMPIB](https://www.impib.dev)** · **Current version:** 1.0.1 · [Release notes](CHANGELOG.md) · [Get help or report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new/choose)
+**[Open IMPIB](https://www.impib.dev)** · **Current version:** 1.0.2 · [Release notes](CHANGELOG.md) · [Get help or report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new/choose)
 
 When reporting a problem, include your browser, device, source image dimensions, selected formats, and steps to reproduce it. Please do not attach confidential source images or metadata; use a safe sample when possible.
 

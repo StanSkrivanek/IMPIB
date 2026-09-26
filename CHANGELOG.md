@@ -2,6 +2,12 @@
 
 These are approved, user-facing release notes. Internal plans and unreleased work remain in the private application repository.
 
+## 1.0.2 — 2026-09-26
+
+- Refreshes App Settings with a consistent premium layout, responsive typography, clearer navigation, and balanced light and dark themes.
+- Improves startup-recipe presentation with an explicit active state and consistent card styling.
+- Keeps saved recipes synchronized across the Advanced inspector and Settings recipe managers, including after reload.
+
 ## 1.0.1 — 2026-09-26
 
 - Restores clear histogram channel rendering in the light theme while preserving the intended dark-theme blending.
