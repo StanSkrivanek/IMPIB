@@ -2,7 +2,7 @@
 
 This is the public issue tracker for IMPIB, a browser-based image production app. The application source code is private; this repository is for bug reports, feature discussions, and public release notes.
 
-**Current version:** 0.9.33 · [Release notes](CHANGELOG.md) · [Report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new)
+**Current version:** 1.0.0 · [Release notes](CHANGELOG.md) · [Report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new)
 
 When reporting a problem, include your browser, device, source image dimensions, selected formats, and steps to reproduce it. Please do not attach confidential source images or metadata; use a safe sample when possible.
 
@@ -34,7 +34,7 @@ All decoding, transformation, analysis, and encoding happens locally in Web Work
 | ------------------- | ------------------------------ |
 | Input               | JPEG, PNG, WebP, AVIF          |
 | Main output         | AVIF, WebP, JPEG, PNG, JPEG XL |
-| Responsive variants | AVIF, WebP, JPEG, JPEG XL      |
+| Responsive variants | AVIF, WebP, JPEG, PNG, JPEG XL |
 
 Encoding is provided by the [`@jsquash`](https://github.com/jamsinclair/jSquash) WebAssembly codecs.
 

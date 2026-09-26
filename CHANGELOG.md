@@ -2,6 +2,22 @@
 
 These are approved, user-facing release notes. Internal plans and unreleased work remain in the private application repository.
 
+## 1.0.0 — 2026-09-26
+
+- Delivers the complete private, browser-only image production workflow across Standard, Advanced,
+  and Batch modes, with responsive image sets, exact-size templates, local downloads, and structured
+  ZIP handoff packages.
+- Adds resilient processing for demanding jobs through device-aware limits, bounded worker
+  concurrency, cancellation, selective retry, partial-result retention, and explicit AVIF/JPEG XL
+  memory guidance.
+- Completes the V1 interface and accessibility pass with consistent inspectors, keyboard workflows,
+  touch layouts, visible focus, reduced motion, live processing status, and light/dark themes.
+- Documents supported formats, metadata behavior, browser capabilities, recovery paths, and current
+  Shopify, general website, and Amazon image targets. PNG is included consistently in image-set
+  capability summaries.
+- Keeps source images, filenames, metadata, and generated output on the user's device; the deployed
+  application has no image-upload API, analytics, advertising, or tracking.
+
 ## 0.9.33 — 2026-09-20
 
 - Keeps other selected image-set formats generating when a large JPEG XL output is skipped or its encoder reports a recoverable error.
