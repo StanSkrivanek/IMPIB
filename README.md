@@ -2,7 +2,7 @@
 
 This is the public issue tracker for IMPIB, a browser-based image production app. The application source code is private; this repository is for bug reports, feature discussions, and public release notes.
 
-**Current version:** 1.0.0 · [Release notes](CHANGELOG.md) · [Report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new)
+**[Open IMPIB](https://www.impib.dev)** · **Current version:** 1.0.0 · [Release notes](CHANGELOG.md) · [Get help or report an issue](https://github.com/StanSkrivanek/IMPIB/issues/new/choose)
 
 When reporting a problem, include your browser, device, source image dimensions, selected formats, and steps to reproduce it. Please do not attach confidential source images or metadata; use a safe sample when possible.
 
@@ -11,6 +11,8 @@ When reporting a problem, include your browser, device, source image dimensions,
 IMPIB (Image Processor In Browser) is more than a conventional image compressor. It is a complete in-browser production workflow for creating optimized images, responsive variants, exact-size crops, and organized delivery packages from a single source.
 
 All decoding, transformation, analysis, and encoding happens locally in Web Workers using WebAssembly codecs. There is no image upload endpoint, backend processing, telemetry, or advertising.
+
+[![IMPIB homepage showing responsive image production](assets/impib-home.png)](https://www.impib.dev)
 
 ## Highlights
 
@@ -61,4 +63,4 @@ Standard mode is designed for quickly creating complete responsive sets. Advance
 
 ## Issues and release notes
 
-Use [Issues](https://github.com/StanSkrivanek/IMPIB/issues) to report problems or discuss improvements. Published changes are listed in the [public changelog](CHANGELOG.md).
+Use the guided [issue forms](https://github.com/StanSkrivanek/IMPIB/issues/new/choose) to report a bug or suggest an improvement. Read the [support guide](SUPPORT.md) before posting and follow the [security policy](SECURITY.md) for potential vulnerabilities. Published changes are listed in the [public changelog](CHANGELOG.md).

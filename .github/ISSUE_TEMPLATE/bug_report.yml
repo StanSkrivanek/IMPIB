@@ -1,0 +1,73 @@
+name: Bug report
+description: Report a reproducible problem with IMPIB
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve IMPIB. Do not attach confidential images, filenames, metadata, or sensitive screenshots. Use a safe sample whenever possible.
+  - type: input
+    id: version
+    attributes:
+      label: IMPIB version
+      description: The version shown in the app or release notes.
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Include browser version, operating system, and device type.
+      placeholder: Safari 26 on macOS 26, MacBook Pro
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Safe source-image details
+      description: State the format and pixel dimensions. Do not include a confidential filename or image.
+      placeholder: JPEG, 6000 × 4000 pixels
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: Relevant settings
+      description: List the workflow, formats, sizes, templates, crop mode, and other settings involved.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give a short, numbered sequence that consistently produces the problem.
+      placeholder: |
+        1. Open Advanced mode
+        2. Select …
+        3. Generate …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed confidential images, filenames, metadata, and sensitive information from this report.
+          required: true
+        - label: I checked existing issues for the same problem.
+          required: true

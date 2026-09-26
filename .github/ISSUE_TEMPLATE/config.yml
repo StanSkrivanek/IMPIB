@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: IMPIB support guide
+    url: https://github.com/StanSkrivanek/IMPIB/blob/main/SUPPORT.md
+    about: Read what information to include and how to protect private image data.
+  - name: Open IMPIB
+    url: https://www.impib.dev
+    about: Launch the browser-based image production app.

@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest a focused improvement to IMPIB
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the image-production problem first, then explain the improvement you would find useful. Please do not include private project information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow limitation
+      description: What are you trying to accomplish, and what currently makes it difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
+      description: Describe the behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional. Explain any current workaround or alternative you tried.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional safe context
+      description: Optional. Do not include confidential images, filenames, metadata, or internal project details.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked existing issues for a similar request.
+          required: true
+        - label: This request contains no confidential or sensitive information.
+          required: true
