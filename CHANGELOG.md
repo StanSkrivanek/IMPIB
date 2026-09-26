@@ -2,6 +2,12 @@
 
 These are approved, user-facing release notes. Internal plans and unreleased work remain in the private application repository.
 
+## 1.0.1 — 2026-09-26
+
+- Restores clear histogram channel rendering in the light theme while preserving the intended dark-theme blending.
+- Restores the standard clipping-zone checkbox appearance and adds browser coverage for both themes and checkbox states.
+- Simplifies image-analysis and worker internals without changing user workflows, and adds release budgets that guard optimizer JavaScript, CSS, worker, and WebAssembly size.
+
 ## 1.0.0 — 2026-09-26
 
 - Delivers the complete private, browser-only image production workflow across Standard, Advanced,
